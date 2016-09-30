@@ -61,27 +61,27 @@ Open your browser and go to `http://localhost:3000/`.
 
 ## Props
 
-| Name | Type | Description |
+| Name | Type | Default | Description |
 | --- | --- | --- | --- |
-| `pageNum` | `Number` | **Required.** The total number of pages. |
-| `pageRangeDisplayed` | `Number` | **Required.** The range of pages displayed. |
-| `marginPagesDisplayed` | `Number` | **Required.** The number of pages to display for margins. |
-| `previousLabel` | `Node` | Label for the `previous` button. |
-| `nextLabel` | `Node` | Label for the `next` button. |
-| `breakLabel` | `Node` | Label for ellipsis. |
-| `breakClassName` | `String` | The classname on tag `li` of the ellipsis element. |
-| `clickCallback` | `Function` | The method to call when a page is clicked. |
-| `initialSelected` | `Number` | The initial page selected. |
-| `forceSelected` | `Number` | To override selected page with parent prop. |
-| `containerClassName` | `String` | The classname of the pagination container. |
-| `pageClassName` | `String` | The classname on tag `li` of each page element. |
-| `pageLinkClassName` | `String` | The classname on tag `a` of each page element. |
-| `activeClassName` | `String` | The classname for the active page. |
-| `previousClassName` | `String` | The classname on tag `li` of the `previous` button. |
-| `nextClassName` | `String` | The classname on tag `li` of the `next` button. |
-| `previousLinkClassName` | `String` | The classname on tag `a` of the `previous` button. |
-| `nextLinkClassName` | `String` | The classname on tag `a` of the `next` button. |
-| `disabledClassName` | `String` | The classname for disabled `previous` and `next` buttons. |
+| `pageNum` | `Number` | 10 | **Required.** The total number of pages. |
+| `pageRangeDisplayed` | `Number` | 2 | **Required.** The range of pages displayed. |
+| `marginPagesDisplayed` | `Number` | 3 | **Required.** The number of pages to display for margins. |
+| `previousLabel` | `Node` | `"Previous"` | Label for the `previous` button. |
+| `nextLabel` | `Node` | `"Next"` | Label for the `next` button. |
+| `breakLabel` | `Node` | `"..."` | Label for ellipsis. |
+| `breakClassName` | `String` | `"break"` | The classname on tag `li` of the ellipsis element. |
+| `clickCallback` | `Function` | | The method to call when a page is clicked. |
+| `initialSelected` | `Number` | | The initial page selected. |
+| `forceSelected` | `Number` | | To override selected page with parent prop. |
+| `containerClassName` | `String` | | The classname of the pagination container. |
+| `pageClassName` | `String` | | The classname on tag `li` of each page element. |
+| `pageLinkClassName` | `String` | | The classname on tag `a` of each page element. |
+| `activeClassName` | `String` | `"selected"` | The classname for the active page. |
+| `previousClassName` | `String` | `"previous"` | The classname on tag `li` of the `previous` button. |
+| `nextClassName` | `String` | `"next"` | The classname on tag `li` of the `next` button. |
+| `previousLinkClassName` | `String` | | The classname on tag `a` of the `previous` button. |
+| `nextLinkClassName` | `String` | | The classname on tag `a` of the `next` button. |
+| `disabledClassName` | `String` | | The classname for disabled `previous` and `next` buttons. |
 
 ## Contribute
 
